@@ -1,7 +1,7 @@
 function App(){
     return(
         <div>
-            <div className="box-border mt-[84px] ml-[160px] h-[214px] w-[508px] bg-[#E9F3FE] rounded-[25px] border border-black flex flex-row flex-wrap flex-1 gap-7"> {/*card*/}
+            <div className="box-border mt-[84px] ml-[160px] h-[214px] w-[508px] bg-[#E9F3FE] rounded-[25px] border border-black flex flex-row flex-wrap flex-1 gap-[15px]"> {/*card*/}
                     <div className="box-border bg-[#FFFFFF] w-[155px] h-[181px] mt-[16px] ml-[4px] border rounded-[25px] relative"> {/*image*/}
                         <div className="w-[31px] h-[31px]  bg-[#FAFAFA] ml-[113px] mt-[8px] absolute top-0 rounded-[50%] ">
                             <svg className="w-[13px] h-[12px] fill-current text-[#F5CA53] mt-[9px] ml-[8px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -37,7 +37,7 @@ function App(){
                     </div>
                     <div> {/*dots*/}
                     <div>
-                        <p className="w-[16px] h-[2px] border-2 mt-[8px] text-lg font-medium text-[#699BF7] bg-[#E9F3FE] ml-[20px]">...</p>
+                        <p className="w-[16px] h-[2px] border-2 mt-[8px] text-lg font-medium text-[#699BF7] bg-[#E9F3FE] ml-[33px]">...</p>
                     </div>
                     </div>
             </div>
